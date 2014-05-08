@@ -6,30 +6,35 @@
 	\usetheme[alternativetitlepage=true
 		      ]{Torino}
 
+	%\setbeamertemplate{footline} % To remove the footer line in all slides uncomment this line
+	%\setbeamertemplate{footline}[page number] % To replace the footer line in all slides with a simple slide count uncomment this line
+
+	%\setbeamertemplate{navigation symbols}{} % To remove the navigation symbols from the bottom of all slides uncomment this line
+}
 
 \usepackage[]{polski}
 \usepackage[utf8]{inputenc} 
-\usepackage{graphicx}
-\usepackage{booktabs}
+\usepackage{graphicx} % Allows including images
+\usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
 
 %----------------------------------------------------------------------------------------
 %	TITLE PAGE
 %----------------------------------------------------------------------------------------
 
-\title[To w tym szablonie i tak nie działa]{\Huge Github, czyli tam i z powrotem z repozytorium}
+\title[To w tym szablonie i tak nie działa]{\Huge Github, czyli tam i z powrotem z repozytorium} % The short title appears at the bottom of every slide, the full title is only on the title page
 
-\author{Radosław Głombiowski\\oraz\\Karolina Rybarczyk}
+\author{Radosław Głombiowski\\oraz\\Karolina Rybarczyk} % Your name
 \institute{
-Uniwesytet Gdański\\ 
+Uniwesytet Gdański\\ % Your institution for the title page
 \medskip
-\textit{john@smith.com, szprota@rybki.com.pl}
+\textit{john@smith.com, szprota@rybki.com.pl} % Your email address
 }
-\date{}
+\date{} % To tutaj to po to, by usunąć tą cholerną datę, która z automatu się pojawia.
 
 \begin{document}
 
 	\begin{frame}
-		\titlepage 
+		\titlepage % Print the title page as the first slide
 	\end{frame}
 
 
