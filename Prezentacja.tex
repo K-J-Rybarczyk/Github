@@ -170,15 +170,33 @@ Uniwesytet Gdański\\ % Your institution for the title page
 				Pobranie nowej zawartości.
 			\end{block}
 
-			\begin{block}{git pull "Nazwa repozytorium"}
-				Pobranie i scalenie nowej zawartości.
-			\end{block}	
-
 			\begin{block}{git merge "Nazwa brancha"}
 				Scalenie brancha do aktualnie używanej gałęzi.
 			\end{block}	
 			
+			\begin{block}{git pull "Nazwa repozytorium"}
+				Pobranie i scalenie nowej zawartości.
+			\end{block}	
 					
+						
+	\end{frame}
+	
+		%------------------------------------------------
+		
+	\begin{frame}
+		\frametitle{Praca z kolaborantami}
+
+			\begin{block}{git remote -v}
+				Pokaż zdalne repozytoria.
+			\end{block}	
+
+			\begin{block}{git checkout --track "Nazwa zdalnego repo"/"Nazwa gałęzi"}
+				Stworzenie śledzącej gałęzi.
+			\end{block}	
+			
+			\begin{block}{git push "Nazwa zdalnego repo" :"Nazwa zdalnej gałęzi"}
+				Usunięcie zdalnej gałęzi.
+			\end{block}	
 						
 	\end{frame}
 	
@@ -190,15 +208,6 @@ Uniwesytet Gdański\\ % Your institution for the title page
 			\begin{block}{git fetch ? git pull}
 				Ostrożnie z pull'em.
 			\end{block}
-
-			\begin{block}{git remote show "Nazwa repozytorium"}
-				Pokaż co siedzi w repo.
-			\end{block}	
-
-			\begin{block}{git merge "Nazwa brancha"}
-				Scalenie brancha do aktualnie używanej gałęzi.
-			\end{block}	
-			
 					
 						
 	\end{frame}
@@ -208,36 +217,28 @@ Uniwesytet Gdański\\ % Your institution for the title page
 	\begin{frame}
 		\frametitle{WTF is pull request?}
 
-			\begin{block}{git fetch ? git pull}
-				Ostrożnie z pull'em. Raczej używać fetch, dopiero później pull.
-			\end{block}
-
-			\begin{block}{git pull <Nazwa repozytorium>}
-				Pobranie i scalenie nowej zawartości.
-			\end{block}	
-
-			\begin{block}{git merge <Nazwa brancha>}
-				Scalenie brancha do aktualnie używanej gałęzi.
-			\end{block}	
-			
+			\begin{block}{Fork i pull request}
+				Współpraca przez przeglądarkę.
+			\end{block}			
 					
 						
 	\end{frame}
-	%------------------------------------------------
+	
+		%------------------------------------------------
 		
 	\begin{frame}
-		\frametitle{Ciekawostki}
+		\frametitle{Ciekawe kontrolki}
 
 			\begin{block}{git commit -a}
 				Zmiany, wszędzie zmiany.
 			\end{block}
 
-			\begin{block}{git checkout -b <Nazwa brancha>}
+			\begin{block}{git checkout -b "Nazwa brancha"}
 				Skróty, skróty.
 			\end{block}	
 
-			\begin{block}{git merge <Nazwa brancha>}
-				Ściągnięcie naszego brancha do głównej gałęzi.
+			\begin{block}{git branch --no-merged}
+				Co zostało do scalenia?
 			\end{block}	
 			
 					
